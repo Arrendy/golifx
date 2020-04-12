@@ -3,8 +3,6 @@ module github.com/arrendy/golifx
 go 1.14
 
 require (
-	github.com/cpuguy83/go-md2man v1.0.10 // indirect
-	github.com/inconshreveable/mousetrap v1.0.0 // indirect
 	github.com/konsorten/go-windows-terminal-sequences v1.0.2 // indirect
 	github.com/lunixbochs/struc v0.0.0-20190916212049-a5c72983bc42
 	github.com/niemeyer/pretty v0.0.0-20200227124842-a10e7caefd8e // indirect
