@@ -4,7 +4,7 @@ import (
 	"sync"
 	"time"
 
-	uuid "github.com/satori/go.uuid"
+	uuid "github.com/gofrs/uuid"
 )
 
 const subscriptionChanSize = 16
@@ -65,8 +65,9 @@ func (s *Subscription) Close() error {
 
 // newSubscription instantiates a new Subscription
 func newSubscription(provider *SubscriptionProvider) *Subscription {
+	uuid, _ := uuid.NewV4()
 	return &Subscription{
-		id:       uuid.NewV4(),
+		id:       uuid,
 		events:   make(chan interface{}, subscriptionChanSize),
 		quitChan: make(chan struct{}),
 		provider: provider,
