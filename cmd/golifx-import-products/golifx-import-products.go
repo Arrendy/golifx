@@ -12,7 +12,7 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/pdf/golifx/protocol/v2/device"
+	"github.com/arrendy/golifx/protocol/v2/device"
 )
 
 type vendorSorter []*device.Vendor

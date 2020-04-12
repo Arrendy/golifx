@@ -3,8 +3,8 @@ package golifx_test
 import (
 	"fmt"
 
-	"github.com/pdf/golifx"
-	"github.com/pdf/golifx/protocol"
+	"github.com/arrendy/golifx"
+	"github.com/arrendy/golifx/protocol"
 )
 
 // Instantiating a new client with protocol V2, with default options

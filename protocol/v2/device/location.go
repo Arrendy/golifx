@@ -1,6 +1,6 @@
 package device
 
-import "github.com/pdf/golifx/protocol/v2/packet"
+import "github.com/arrendy/golifx/protocol/v2/packet"
 
 type Location struct {
 	// Location is a Group

@@ -11,13 +11,13 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/Sirupsen/logrus"
+	"github.com/sirupsen/logrus"
 	"github.com/spf13/cobra"
 	"github.com/spf13/cobra/doc"
 
-	"github.com/pdf/golifx"
-	"github.com/pdf/golifx/common"
-	"github.com/pdf/golifx/protocol"
+	"github.com/arrendy/golifx"
+	"github.com/arrendy/golifx/common"
+	"github.com/arrendy/golifx/protocol"
 )
 
 var (

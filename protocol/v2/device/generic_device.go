@@ -3,8 +3,8 @@ package device
 import (
 	"time"
 
-	"github.com/pdf/golifx/common"
-	"github.com/pdf/golifx/protocol/v2/packet"
+	"github.com/arrendy/golifx/common"
+	"github.com/arrendy/golifx/protocol/v2/packet"
 )
 
 type GenericDevice interface {

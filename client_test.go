@@ -4,14 +4,14 @@ import (
 	"errors"
 	"time"
 
-	. "github.com/pdf/golifx"
+	. "github.com/arrendy/golifx"
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 	"github.com/onsi/gomega/format"
 
-	"github.com/pdf/golifx/common"
-	"github.com/pdf/golifx/mocks"
+	"github.com/arrendy/golifx/common"
+	"github.com/arrendy/golifx/mocks"
 	"github.com/stretchr/testify/mock"
 )
 

@@ -6,8 +6,8 @@ import (
 	"text/tabwriter"
 	"time"
 
-	"github.com/Sirupsen/logrus"
-	"github.com/pdf/golifx/common"
+	"github.com/arrendy/golifx/common"
+	"github.com/sirupsen/logrus"
 	"github.com/spf13/cobra"
 )
 

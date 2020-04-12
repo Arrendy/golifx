@@ -4,7 +4,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/pdf/golifx/common"
+	"github.com/arrendy/golifx/common"
 )
 
 // Client provides a simple interface for interacting with LIFX devices.  Client

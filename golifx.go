@@ -20,7 +20,7 @@ package golifx
 import (
 	"time"
 
-	"github.com/pdf/golifx/common"
+	"github.com/arrendy/golifx/common"
 )
 
 const (
